@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-03-17 11:30-0600\n"
+"POT-Creation-Date: 2017-03-27 14:52-0600\n"
 "PO-Revision-Date: 2017-03-17 11:30-0600\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -18,7 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: app/templates/hello.html:3
+#: app/templates/hello.html:3 app/templates/hello.html:10
+#: app/templates/three.html:10 app/templates/two.html:10
 msgid "Hello"
 msgstr "Bonjour"
+
+#: app/templates/hello.html:11 app/templates/three.html:11
+#: app/templates/two.html:3 app/templates/two.html:11
+msgid "Two"
+msgstr "Deux"
+
+#: app/templates/hello.html:12 app/templates/three.html:3
+#: app/templates/three.html:12 app/templates/two.html:12
+msgid "Three"
+msgstr "Trois"
 
